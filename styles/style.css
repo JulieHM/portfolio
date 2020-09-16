@@ -52,11 +52,11 @@ p, li{
 
 
 .intoText{
-    font-family: "Inter var experimental", sans-serif;
+    /*font-family: "Inter var experimental", sans-serif;*/
+    font-family: Open Sans;
     font-weight: lighter;
     font-style: thin;
-    font-size: 22px;
-    line-height: 33px;
+    font-size: 28px;
     color: rgb(45, 45, 45);
 }
 
