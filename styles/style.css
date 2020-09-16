@@ -69,7 +69,8 @@ p, li{
     text-decoration: none;
     font-size: 20px;
     color: rgb(92, 89, 86);
-    font-family: 'open sans';
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
     padding:2rem;
 }
 
@@ -135,6 +136,26 @@ footer{
     color: white;
     flex-shrink: 0;
     
+}
+
+.arrow {
+    margin-top: 8vw;
+    border: solid #405254;
+    border-width: 0 1vw 1vw 0;
+    display: inline-block;
+    padding: 20px;
+}
+
+.arrow:hover{
+    border: solid #c2bfb9;
+    border-width: 0 1vw 1vw 0;
+    display: inline-block;
+    padding: 20px;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
 }
 
 
