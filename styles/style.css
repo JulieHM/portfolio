@@ -4,8 +4,6 @@ body{
     /*svg sirkler brukt linken over for å convertere svg til bakgrunns url*/
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle r='35vw' cy='10vw' cx='5vw' fill='%23EEEAE4'%3E%3C/circle%3E%3Ccircle r='35vw' cy='60vw' cx='100vw' fill='%23405254'%3E%3C/circle%3E%3C/svg%3E");
     background-repeat: no-repeat;
-    position: sticky;
-    background-color: whitesmoke;
 }
 
 html {
