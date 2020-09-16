@@ -1,0 +1,53 @@
+html { font-size: 22px; }
+body { padding: 1rem; background-color: whitesmoke}
+
+.card {
+  /* background-color: dodgerblue; */
+  color: black;
+  padding: 1rem;
+  height: 4rem;
+  font-family: inter;
+  font-weight: lighter;
+  height: auto;
+  width: auto;
+  text-align: center;
+ 
+}
+
+.cards { /* parent element */
+  background-color: whitesmoke;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 1rem;
+  }
+
+  #back{
+      background-image: url("images/left-arrow.png");
+  }
+
+  #back:hover{
+      background-image: url("images/icons8-arrow-pointing-left-30.png");
+  }
+
+
+  .arrow {
+    border: solid black;
+    border-width: 0 5px 5px 0;
+    display: inline-block;
+    padding: 10px;
+  }
+
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+
+  .left:hover{
+      border: solid darkslategrey;
+      border-width: 0 5px 5px 0;
+  }
+
+ 
+

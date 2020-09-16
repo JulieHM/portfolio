@@ -1,0 +1,147 @@
+/* https://yoksel.github.io/url-encoder/ brukt for svg sirkler */
+body{
+    margin:0;
+    /*svg sirkler brukt linken over for å convertere svg til bakgrunns url*/
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle r='35vw' cy='10vw' cx='5vw' fill='%23EEEAE4'%3E%3C/circle%3E%3Ccircle r='35vw' cy='60vw' cx='100vw' fill='%23405254'%3E%3C/circle%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    position: sticky;
+    background-color: whitesmoke;
+}
+
+html {
+    scroll-behavior: smooth !important;
+}
+
+button:focus {
+    outline:0;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.wrapper > div{
+    flex: 2 0 auto;
+}
+
+.welcome{
+    padding-top: 10vw;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6, p, li{
+    font-family: "Inter var experimental", sans-serif;
+    font-weight: 100;
+    color: #454545;
+}
+
+h3, h2{
+    color:rgb(225, 225, 225);
+}
+
+
+p, li{
+    font-style: thin;
+    font-weight: lighter;
+    font-size: 22px;
+    line-height: 2.5rem;
+}
+
+
+
+.intoText{
+    font-family: "Inter var experimental", sans-serif;
+    font-weight: lighter;
+    font-style: thin;
+    font-size: 22px;
+    line-height: 33px;
+    color: rgb(45, 45, 45);
+}
+
+.navbarContainer{
+    padding-top: 1.5rem;
+}
+
+
+.navbarContainer a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(92, 89, 86);
+    font-family: 'open sans';
+    padding:2rem;
+}
+
+.navbarContainer a:hover{
+    color:black;
+    font-weight: bold;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.755);
+    z-index: 1;
+    padding-bottom: 2vw;
+    transition-duration: 0.5s;
+}
+
+.sticky + .content {
+    padding-top: 500px;
+}
+
+/* Les mer knapp */
+.readMore{
+    background-color: transparent;
+    padding: 15px;
+    border-width: 2px;
+    border-color: #405254;
+    font-size: 16px;
+    font-family: 'Inter var experimental', sans-serif;
+    font-weight: lighter;
+    width: 150px;
+    color: rgb(87, 87, 87);
+}
+
+.readMore:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    transition-duration: 0.5s;
+}
+
+
+
+.about{
+    margin-top: 30vw;
+    background-color: #EEEAE4;
+    align-self: flex-end;
+    width:70%;
+}
+
+.work{
+    margin-top: 30vw;
+    background-color: #EEEAE4;
+  
+    align-content: center;
+    padding-left: 10vw;
+    height:40vw;
+}
+
+footer{
+    background-color: black;
+    padding: 5%;
+    padding-left:10%;
+    color: white;
+    flex-shrink: 0;
+    
+}
+
+
+
+
+
+
+
