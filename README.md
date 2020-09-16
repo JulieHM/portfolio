@@ -1,2 +1,2 @@
-## portifolio
-
+## portfolio
+Julie Holte Motland
