@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tegneside</title>
+    <link rel="stylesheet" href="styles/tegneside.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.14/p5.js"></script>
+    <script> 
+        function setup() {
+            var canvas = createCanvas(600, 600);
+            //document.getElementById("myCanvas");
+            canvas.parent('myCanvas');
+        }
+
+        function draw() {
+            if (mouseIsPressed) {
+                fill(255, 0, 100);
+            }
+            else {
+                fill(255);
+            }
+            ellipse(mouseX, mouseY, 80, 80);
+        }
+      </script>
+</head>
+<body>
+    <a href="index.html"><p>  <i class="arrow left"></i> <a href="index.html"></p></a>
+    <div class="cards">
+        <div class="card" style="font-weight: bold; font-weight: bolder; font-size: larger;">Velkommen</div>
+        <div class="card" style="line-height: 1.2rem;">Her kan du tegne så mye du vil. Dra pilen rundt på skjermen og lag figurer.
+        <br>Hvor fort man beveger musepekeren vil påvirke formen.  
+        </div>
+        <div class="card" id="myCanvas" style="left: 50%"> </div>
+    
+    </div>
+ 
+    
+</body>
+</html>
