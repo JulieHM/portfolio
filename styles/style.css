@@ -32,9 +32,10 @@ button:focus {
 }
 
 h1, h2, h3, h4, h5, h6, p, li{
-    font-family: "Inter var experimental", sans-serif;
+    /* font-family: "Inter var experimental", sans-serif; */
     font-weight: 100;
     color: #454545;
+    font-family: 'open sans', 'sans-serif';
 }
 
 h3, h2{
@@ -45,18 +46,19 @@ h3, h2{
 p, li{
     font-style: thin;
     font-weight: lighter;
-    font-size: 20px;
-    line-height: 2.5rem;
+    font-size: 1.3vw;
+    line-height: 2;
+    font-family: "Inter var experimental", sans-serif;
 }
 
 
 
 .intoText{
     /*font-family: "Inter var experimental", sans-serif;*/
-    font-family: Open Sans;
-    font-weight: lighter;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
     font-style: thin;
-    font-size: 28px;
+    font-size: 2vw;
     color: rgb(45, 45, 45);
 }
 
@@ -67,7 +69,7 @@ p, li{
 
 .navbarContainer a{
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1.3vw;
     color: rgb(92, 89, 86);
     font-family: 'Open Sans', sans-serif;
     font-weight: 100;
@@ -76,7 +78,7 @@ p, li{
 
 .navbarContainer a:hover{
     color:black;
-    font-weight: bold;
+    font-weight: 350;
 }
 
 .sticky {
@@ -90,28 +92,8 @@ p, li{
 }
 
 .sticky + .content {
-    padding-top: 500px;
+    padding-top: 50vw;
 }
-
-/* Les mer knapp */
-.readMore{
-    background-color: transparent;
-    padding: 15px;
-    border-width: 2px;
-    border-color: #405254;
-    font-size: 16px;
-    font-family: 'Inter var experimental', sans-serif;
-    font-weight: lighter;
-    width: 150px;
-    color: rgb(87, 87, 87);
-}
-
-.readMore:hover{
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-    transition-duration: 0.5s;
-}
-
-
 
 .about{
     margin-top: 30vw;
@@ -134,7 +116,8 @@ footer{
     padding: 5%;
     padding-left:10%;
     color: white;
-    flex-shrink: 0;
+    flex-shrink: 10;
+  
     
 }
 
@@ -143,14 +126,14 @@ footer{
     border: solid #405254;
     border-width: 0 1vw 1vw 0;
     display: inline-block;
-    padding: 20px;
+    padding: 1.3vw;
 }
 
 .arrow:hover{
     border: solid #c2bfb9;
     border-width: 0 1vw 1vw 0;
     display: inline-block;
-    padding: 20px;
+    padding: 1.3vw;
 }
 
 .down {
