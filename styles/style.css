@@ -1,20 +1,16 @@
 /* https://yoksel.github.io/url-encoder/ brukt for svg sirkler */
-body {
-  margin: 0;
-  /*svg sirkler brukt linken over for å convertere svg til bakgrunns url*/
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle r='35vw' cy='10vw' cx='5vw' fill='%23EEEAE4'%3E%3C/circle%3E%3Ccircle r='35vw' cy='60vw' cx='100vw' fill='%23405254'%3E%3C/circle%3E%3C/svg%3E");
-  background-repeat: no-repeat;
-  font-weight: 100;
-  color: #454545;
-  font-family: "open sans", "sans-serif";
-}
 
 html {
   scroll-behavior: smooth !important;
 }
 
-button:focus {
-  outline: 0;
+body {
+  margin: 0;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle r='35vw' cy='10vw' cx='5vw' fill='%23EEEAE4'%3E%3C/circle%3E%3Ccircle r='35vw' cy='60vw' cx='100vw' fill='%23405254'%3E%3C/circle%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  font-weight: 100;
+  color: #454545;
+  font-family: "open sans", "sans-serif";
 }
 
 .wrapper {
@@ -43,7 +39,7 @@ p,
 li {
   font-style: thin;
   font-weight: lighter;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   line-height: 2;
   font-family: "Inter var experimental", sans-serif;
 }
@@ -75,19 +71,7 @@ li {
   font-weight: 350;
 }
 
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background-color: rgba(255, 255, 255, 0.755);
-  z-index: 1;
-  padding-bottom: 2vw;
-  transition-duration: 0.5s;
-}
 
-.sticky + .content {
-  padding-top: 50vw;
-}
 
 .about {
   margin-top: 30vw;
@@ -134,10 +118,58 @@ footer {
   -webkit-transform: rotate(45deg);
 }
 
+.title{
+  font-size: 45px;
+  top: -60px;
+  position: relative;
+}
+
 @media only screen and (max-width: 600px) {
   p,
   li,
   h3 {
     font-size: 13px;
   }
+
+  .title{
+    font-size: 22px;
+  }
+
+  body{
+  background-color: #eeeae4;
+  background-image: none;
+  }
+
+  .intoText{
+    display: none;
+  }
+
+  footer{
+    display: none;
+  }
+
+  .wrapper{
+    justify-content: center;
+  }
+
+  div{
+    justify-content: center;
+  }
+
+  .about {
+    margin-top: 30vw;
+    background-color: #eeeae4;
+    align-self: center;
+    width: 70%;
+  }
+
+  .navbarContainer > a {
+    font-size: larger;
+  }
+
+}
+
+  
+  
+ 
 }
