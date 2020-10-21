@@ -10,15 +10,16 @@ body {
   background-repeat: no-repeat;
   font-weight: 100;
   color: #454545;
-  font-family: "open sans", "sans-serif";
+  font-family: "Open Sans", sans-serif;
 }
 
 .wrapper {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  margin: 0 auto;
-  justify-content: space-around;
+  /*margin: 0 auto;*/
+  justify-content: center; 
+  align-items: center;
 }
 
 .wrapper > div {
@@ -26,8 +27,11 @@ body {
 }
 
 .welcome {
-  padding-top: 10vw;
+  height: 100%;
   text-align: center;
+  align-self: center;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
 }
 
 h3,
@@ -89,12 +93,11 @@ li {
   height: 40vw;
 }
 
-footer {
+.footer {
   background-color: black;
   padding: 5%;
   padding-left: 10%;
   color: white;
-  flex-shrink: 10;
   flex-direction: column;
 }
 
@@ -122,6 +125,8 @@ footer {
   font-size: 45px;
   top: -60px;
   position: relative;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
 }
 
 @media only screen and (max-width: 600px) {
@@ -144,8 +149,10 @@ footer {
     display: none;
   }
 
-  footer{
+  .footer{
     display: none;
+    font-weight: 200;
+    font-size: smaller;
   }
 
   .wrapper{
